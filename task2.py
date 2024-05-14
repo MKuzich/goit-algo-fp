@@ -17,7 +17,6 @@ def draw_pifagor_tree(order):
     window.bgcolor("black")
     window.title("Піфагорове дерево")
     
-
     t = turtle.Turtle()
     t.speed(0)
     t.left(90)
@@ -29,7 +28,6 @@ def draw_pifagor_tree(order):
     pifagor_tree(t, 200, order)
 
     window.mainloop()
-
 
 def main():
     order = int(input("Введіть глибину рекурсії: "))
